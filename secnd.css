@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+ header{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    background: #0e072b;
+    align-items: center;
+    padding: 0px 30%;
+    color: white;
+    position: fixed;
+    z-index: 5;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    padding: 0px 40px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+nav li:hover{
+    color: red;
+}
+
+.logoimg{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    
+} 
+.intro-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.middle{
+    width: 100%;
+    height: 1400px;
+    
+}
+.half-middle{
+    width: 50%;
+    height: 1400px;
+    background: #f09130;
+}
+.text-middle{
+    font-weight: 200;
+    font-size:60px;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 1800px;
+    left: 15%;
+    color: white;
+    z-index: 1;
+
+
+}
+.text-middle-2{
+    font-weight: 200;
+    font-size:60px;
+    width: 60%;
+    position: absolute;
+    top: 1920px;
+    left: 10%;
+    color: white;
+    z-index: 1;
+    
+
+}
+.middle-image{
+    position: absolute;
+    top: 1600px;
+    left: 370px;
+    z-index: 0;
+    
+}
+.para1{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 1340px;
+    left: 58%;
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para2{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 1780px;
+    left: 58%;
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para3{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 2140px;
+    left: 58%;
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logooos{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 2340px;
+    left: 58%;
+    cursor: pointer;
+
+}
+.frooty-image{
+    width: 100%;
+    height: 1200px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background: white;
+}
+.footer-1{
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 3880px;
+    left:85px;
+    font-size: 20px;
+
+}
+.footer-2{
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    top: 3880px;
+    left:700px;
+    font-size: 20px;
+
+}
+.footer-3{
+    width: 600px;
+    height: 180px;
+    position: absolute;
+    top: 3880px;
+    left:1420px;
+    font-size: 20px;
+
+}
+.footer-logo{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 4090px;
+    left:1420px;
+
+}
